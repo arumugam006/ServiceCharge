@@ -22,7 +22,7 @@ def debit():
 	        a= (amt*1.8)/100
 	        a= str(a)
 	        return a
-	    if amt>100000:
+	    if amt>1000000:
 	        a= (amt*90)/100
 	        a= str(a)
 	        return a 
